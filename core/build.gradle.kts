@@ -46,7 +46,7 @@ tasks {
   }
 }
 
-val dockerImageName = "prendota/kotlin-compiler-server:latest"
+val dockerImageName = "hub.docker.com/prendota/kotlin-compiler-server:latest"
 
 docker {
   name = dockerImageName
